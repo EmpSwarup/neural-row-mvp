@@ -7,7 +7,7 @@ const Footer = () => {
 
         {/* Contact Email */}
         <a
-          href="mailto:connect@neuralrow.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=connect@neuralrow.com"
           target="_blank"
           rel="noopener noreferrer"
           className="block text-lg text-yellow-400 hover:underline"

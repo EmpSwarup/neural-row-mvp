@@ -13,10 +13,15 @@ const Hero = () => {
           Redefining limits beyond bits and bytes.
         </h1>
         {/* Button */}
-        <button className="flex items-center justify-center px-6 py-3 bg-[#D9D9D9] text-lg md:text-2xl rounded-md text-black gap-4 mt-10 md:mt-20 self-center md:self-start">
+
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=connect@neuralrow.com"
+          target="_blank"
+          className="flex items-center justify-center px-6 py-3 bg-[#D9D9D9] text-lg md:text-2xl rounded-md text-black gap-4 mt-10 md:mt-20 self-center md:self-start"
+        >
           Connect with us
           <img src={nexticon} alt="Next" className="h-5 w-5 md:h-6 md:w-6" />
-        </button>
+        </a>
       </div>
 
       {/* Image Section */}
