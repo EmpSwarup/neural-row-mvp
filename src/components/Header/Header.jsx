@@ -5,13 +5,17 @@ const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#0E456A] text-white sm:px-10 lg:px-20 xl:px-40">
+    <nav className="sticky top-0 z-50 bg-[#0E456A] text-white sm:px-10 lg:px-20 2xl:px-40">
       {/* Desktop Navbar */}
       <div className="hidden md:flex items-center justify-between py-5">
         <a href="/" className="flex items-center">
-          <img src={Logo} alt="NeuralRow Logo" className="h-[90px]" />
+          <img
+            src={Logo}
+            alt="NeuralRow Logo"
+            className="h-[90px] xl:h-[50px]"
+          />
         </a>
-        <div className="flex space-x-10 lg:space-x-16 text-xl">
+        <div className="flex space-x-10 lg:space-x-16 text-xl 2xl:text-lg">
           <a href="#home" className="hover:text-black transition">
             Home
           </a>
