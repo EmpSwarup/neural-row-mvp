@@ -12,13 +12,13 @@ const Services = () => {
       image: DataAnalyticsImg,
       title: "Data Analytics",
       description: "Precision Analysis, Powerful Outcomes.",
-      bgColor: "#29C7F4",
+      bgColor: "#284A72",
     },
     {
       image: AIImg,
       title: "AI Integration",
       description: "The Future is Intelligent—Join the Evolution.",
-      bgColor: "#9285C7",
+      bgColor: "#5C48B6",
     },
     {
       image: WebDevelopmentImg,
@@ -36,13 +36,13 @@ const Services = () => {
       image: TrainingImg,
       title: "Training & Support",
       description: "Training Minds, Supporting Journeys.",
-      bgColor: "#9A62B7",
+      bgColor: "#631E87",
     },
     {
       image: MobileDevImg,
       title: "Mobile Application Development",
       description: "Apps that Engage, Innovate, and Perform.",
-      bgColor: "#29C7F4",
+      bgColor: "#0B5266",
     },
   ];
 

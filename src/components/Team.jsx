@@ -17,7 +17,12 @@ const Team = () => {
   return (
     <section className="py-5 my-0 w-full px-3 lg:px-40" id="team">
       <h2 className="text-3xl font-bold text-center mb-6">Our Team</h2>
-      <div className="bg-[#1F3442] text-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
+      <div
+        className="text-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto"
+        style={{
+          background: "linear-gradient(180deg, #2A1137 50%, #1F3442 100%)",
+        }}
+      >
         <ul className="space-y-4">
           {teamMembers.map((member, index) => (
             <li

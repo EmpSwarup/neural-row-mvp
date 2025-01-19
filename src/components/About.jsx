@@ -9,10 +9,15 @@ const About = () => {
       <h2 className="text-3xl text-center text-gray-800 mb-5 lg:mb-20">
         About Us
       </h2>
-      <div className="flex flex-col lg:flex-row items-center justify-between px-6 py-10 lg:py-0 lg:px-40 bg-[#1F3442]">
+      <div
+        className="flex flex-col lg:flex-row items-center justify-between px-6 py-10 lg:py-0 lg:px-40"
+        style={{
+          background: "linear-gradient(180deg, #2A1137 50%, #1F3442 100%)",
+        }}
+      >
         {/* Left Text Section */}
         <div className="lg:w-1/2 w-full text-center lg:text-left">
-          <h1 className="text-xl text-white">
+          <h1 className="text-xl text-white leading-7 tracking-widest font-sans">
             NeuralRow is an AI-driven technology consulting firm committed to
             innovation in artificial intelligence and machine learning. We
             leverage cutting-edge AI technologies to develop transformative

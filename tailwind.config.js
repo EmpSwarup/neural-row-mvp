@@ -7,6 +7,10 @@ export default {
   theme: {
     extend: {
       scrollBehavior: ['smooth'],
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+        robotoSlab: ['"Roboto Slab"', 'serif'],
+      },
     },
   },
   plugins: [],
