@@ -74,7 +74,7 @@ const Team = () => {
     },
     {
       name: "Anaya Sutar",
-      role: "Bigg Boss",
+      role: "Designer",
       socialLinks: {
         linkedin: "https://www.linkedin.com/",
         gmail: "mailto:gaurav@example.com",
